@@ -131,7 +131,9 @@ let me = {
 */
 
 // CODE HERE
-function bigOrSmall(arr)
+
+
+
 //////////////////PROBLEM 13////////////////////
 /* 
   Create a function called 'arrayReverser' that takes in one parameter, 'arr'. 

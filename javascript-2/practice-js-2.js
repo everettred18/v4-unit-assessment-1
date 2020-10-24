@@ -80,7 +80,7 @@ let add = {
 //CODE HERE
 let commit = {
     description:"changes are recorded and saved to a backup",
-    code: " git commit"
+    code: "git commit -a"
 }
 //////////////////PROBLEM 8////////////////////
 /*
@@ -91,7 +91,7 @@ let commit = {
 //CODE HERE
 let addRemote = {
     description:"what in the world",
-    code:"my fav actor is Jim Carrey"
+    code: "git remote add origin"
 }
 //////////////////PROBLEM 9////////////////////
 /*
