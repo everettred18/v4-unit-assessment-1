@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+var gitDefinition = 'A file tracking service that allows you to backup files as you work and save them'
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+var gitHubDefinition = "basically a cloud for git. that you can pull, upload, and share repositories of files."
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,13 +34,19 @@
 */
 
 //CODE HERE
-
+let init = {
+    description: "begins tracking a file in git",
+    code: "git init"
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
     following the guidelines above to describe the clone command.
 */
-
+let clone = {
+    description: "clones a repo from GitHub",
+    code: "git clone"
+}
 //CODE HERE
 
 //////////////////PROBLEM 5////////////////////
@@ -50,7 +56,10 @@
 */
 
 //CODE HERE
-
+let status = {
+    description:"checks modified files to be staged",
+    code: "git status"
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +67,10 @@
 */
 
 //CODE HERE
-
+let add = {
+    description: "adds a change in the directory",
+    code: "git add"
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +78,10 @@
 */
 
 //CODE HERE
-
+let commit = {
+    description:"changes are recorded and saved to a backup",
+    code: " git commit"
+}
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -74,7 +89,10 @@
 */
 
 //CODE HERE
-
+let addRemote = {
+    description:"what in the world",
+    code:"my fav actor is Jim Carrey"
+}
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +100,7 @@
 */
 
 //CODE HERE
+let push = {
+    description:"takes the commited changes and pushes them up in to the cloud repository on github",
+    code:"git push"
+}

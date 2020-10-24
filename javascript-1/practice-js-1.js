@@ -2,15 +2,16 @@
 /* Create a variable called 'myName' with a value that is your name. */
 
 //CODE HERE 
-
+let myName = 'Kelsey'
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
+let faveNum = 10
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
-
+let lovesCode = true
 //CODE HERE
 
 //////////////////PROBLEM 4////////////////////
@@ -20,7 +21,9 @@
 */
 
 //CODE HERE
-
+function sum(num1, num2){
+  return num1 + num2
+}
 //////////////////PROBLEM 5////////////////////
 /*
   Create a function called 'lovesCodeChecker' that takes in a single parameter called 'x'. 
@@ -30,6 +33,13 @@
 */
 
 //CODE HERE
+function lovesCodeChecker(x){
+  if(x===true){
+  return true}
+  else{
+  return false
+  }
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -40,6 +50,14 @@
 */
 
 //CODE HERE
+function oddChecker(num){
+  if(num % 2 == 1){
+    return 'the number is odd'
+  }
+  else{
+    return 'the number is even'
+  }
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -49,7 +67,9 @@
 */
 
 //CODE HERE
-
+function iLove (name, love){
+  return name +" "+'loves'+' '+love
+}
 
 //////////////////PROBLEM 8////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
@@ -57,12 +77,12 @@
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-
+var colorCopy = faveColors.slice(0, 2 + 1)
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
-
+colorCopy.push('orange')
 //////////////////PROBLEM 10////////////////////
 /*
   Using an array method, create a new array called 'middleNums' from the 
@@ -88,7 +108,15 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 //CODE HERE
-
+let me = {
+  firstName: 'kelsey',
+  state: 'Oregon',
+  age: 22,
+    greeter: function(){
+      return 'Hello My'+' '+ 'name' + ' '+ 'is'+' '
+      firstName+ 'and I live in' + state
+    }
+}
 //////////////////PROBLEM 12////////////////////
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
@@ -103,7 +131,7 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 // CODE HERE
-
+function bigOrSmall(arr)
 //////////////////PROBLEM 13////////////////////
 /* 
   Create a function called 'arrayReverser' that takes in one parameter, 'arr'. 
