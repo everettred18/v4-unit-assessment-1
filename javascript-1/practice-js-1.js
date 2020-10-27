@@ -92,6 +92,7 @@ colorCopy.push('orange')
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
+let middleNums = numbers.slice(1,4)
 
 //////////////////PROBLEM 11////////////////////
 /*
@@ -129,6 +130,25 @@ let me = {
   to the answers array. 
   Return the answers array inside of the function.
 */
+function bigOrSmall(arr){
+  let answers=[]
+  for (let i = 0; i < arr.length; i++) {
+  if (arr[i] > 100){
+    answers.push('big')
+    }
+  else if (arr[i] <= 100){
+    answers.push('small')
+    }
+  }
+ 
+return answers  
+}
+
+
+    
+
+    
+
 
 // CODE HERE
 
@@ -145,10 +165,15 @@ let me = {
 */
 
 //CODE HERE
-
-//////////////////PROBLEM 14////////////////////
-
-let global = 'cool string'
+function arrayReverser(arr){
+  let reversed = []
+  for (let i = arr.length; i > 0; i--){
+    //reversed[i] = arr[i]#/
+    reversed.push(i)
+  }
+  return reversed
+}
+//////////////////PR+) 'cool string'
 
 function firstFunction() {
   let outer = 'awesome string'
